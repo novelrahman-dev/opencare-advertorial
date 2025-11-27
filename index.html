@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Dumb Ways Americans Waste Their Health Benefits | DentalGuide</title>
+    <meta name="description" content="Americans are unknowingly wasting hundreds of dollars on health benefits. Learn the 8 most common mistakes and how to avoid them.">
+    
+    <!-- Circular Std Font -->
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Circular Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #4b4b4b;
+            background: #ffffff;
+        }
+        
+        .urgency-banner {
+            background: #537087;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .urgency-banner {
+            position: relative;
+        }
+        
+        .urgency-banner-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .urgency-text {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .urgency-cta {
+            background: #25a186;
+            color: white;
+            border: none;
+            padding: 8px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+        
+        .urgency-cta:hover {
+            background: #1e8a70;
+        }
+        
+        .dismiss-banner {
+            display: none;
+        }
+        
+        header {
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 20px;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 60px;
+            width: auto;
+        }
+        
+        .disclosure-link {
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .meta {
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        .meta span {
+            display: block;
+            margin-bottom: 4px;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .intro {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #374151;
+        }
+        
+        h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1f2937;
+            margin: 40px 0 20px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+        
+        .cta-box {
+            background: #f3f4f6;
+            border-left: 4px solid #25a186;
+            padding: 24px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .cta-box p {
+            margin-bottom: 16px;
+            font-size: 16px;
+        }
+        
+        .cta-button {
+            background: #25a186;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #1e8a70;
+        }
+        
+        .cta-center {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+        
+        .stars {
+            color: #10b981;
+        }
+        
+        .insurance-logos {
+            margin: 24px 0;
+            text-align: center;
+        }
+        
+        .insurance-logos p {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 12px;
+        }
+        
+        .insurance-logos img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .testimonials {
+            background: #e8e9ea;
+            padding: 32px 24px;
+            margin: 32px 0;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .testimonial-slider {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        .testimonial-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .testimonial-card {
+            min-width: 100%;
+            background: #e8e9ea;
+            padding: 32px;
+            border-radius: 12px;
+            box-sizing: border-box;
+        }
+        
+        @media (min-width: 768px) {
+            .testimonial-card {
+                min-width: 50%;
+                padding: 24px;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .testimonial-card {
+                min-width: 33.333%;
+            }
+        }
+        
+        .testimonial-stars {
+            color: #00b67a;
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+        
+        .testimonial-text {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+            color: #374151;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 4px;
+            padding-top: 16px;
+            border-top: 1px solid #d1d5db;
+        }
+        
+        .testimonial-location {
+            font-size: 12px;
+            color: #6b7280;
+        }
+        
+        .slider-controls {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 24px;
+        }
+        
+        .slider-btn {
+            background: white;
+            border: 1px solid #d1d5db;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+        
+        .slider-btn:hover {
+            background: #f3f4f6;
+            border-color: #9ca3af;
+        }
+        
+        .slider-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .testimonial-trust {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 15px;
+            color: #6b7280;
+        }
+        
+        .faq-section {
+            margin: 60px 0;
+        }
+        
+        .faq-section h2 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .faq-item {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            font-size: 16px;
+            color: #1f2937;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+            background: white;
+            transition: background 0.2s;
+        }
+        
+        .faq-question:hover {
+            background: #f9fafb;
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background: white;
+        }
+        
+        .faq-answer.active {
+            max-height: 500px;
+            padding: 16px 20px;
+        }
+        
+        .faq-answer p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .faq-toggle {
+            font-size: 20px;
+            transition: transform 0.3s;
+            color: #6b7280;
+        }
+        
+        .faq-toggle.active {
+            transform: rotate(180deg);
+        }
+        
+        .final-cta {
+            background: #f3f4f6;
+            border: 2px solid #25a186;
+            padding: 40px 32px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        
+        .final-cta h2 {
+            color: #1f2937;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+        
+        .final-cta p {
+            font-size: 18px;
+            margin-bottom: 24px;
+            color: #4b4b4b;
+        }
+        
+        footer {
+            background: #f9fafb;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-disclosure {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        
+        .footer-links a {
+            color: #537087;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .exit-popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .exit-popup.active {
+            display: flex;
+        }
+        
+        .exit-popup-content {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            max-width: 500px;
+            margin: 20px;
+            position: relative;
+        }
+        
+        .exit-popup-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #6b7280;
+        }
+        
+        .exit-popup h3 {
+            font-size: 28px;
+            margin-bottom: 16px;
+            color: #1f2937;
+        }
+        
+        .exit-popup p {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            .urgency-banner-content {
+                flex-direction: column;
+                gap: 12px;
+            }
+            
+            .container {
+                padding: 24px 16px;
+            }
+            
+            .testimonials {
+                padding: 32px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Urgency Banner -->
+    <div class="urgency-banner" id="urgencyBanner">
+        <div class="urgency-banner-content">
+            <span class="urgency-text">⏰ Only <span id="daysLeft"></span> days left to use your 2025 dental benefits!</span>
+            <a href="https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e" class="urgency-cta" id="bannerCta">Find Dentist</a>
+            <button class="dismiss-banner" onclick="dismissBanner()">✕</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo"><img src="dentalguide-logo.png" alt="DentalGuide"></div>
+            <a href="#disclosure" class="disclosure-link">Advertiser Disclosure</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>8 Dumb Ways Americans Waste Their Health Benefits</h1>
+        
+        <div class="meta">
+            <span>Last updated Nov 27, 2025</span>
+            <span>By Health Benefits Team</span>
+        </div>
+        
+        <img src="hero-dental-benefits.jpg" alt="Health benefits planning" class="hero-image">
+        
+        <div class="intro">
+            <p>Americans work hard for their money and their benefits, yet millions are unknowingly throwing hundreds of dollars away each year through simple oversights and misunderstandings about their health insurance coverage.</p>
+            
+            <p>Financial advisors and insurance experts have identified several common mistakes that cost families significant money without them even realizing it. Some of these mistakes are so widespread that insurance companies have come to expect them, quietly pocketing the savings when policyholders fail to take advantage of what they're already paying for.</p>
+            
+            <p>In this article, we break down the most common ways people waste their health benefits and, more importantly, how to avoid making these costly errors yourself. From dental coverage to preventive care, understanding what you're entitled to can put hundreds of dollars back in your pocket this year.</p>
+        </div>
+        
+        <h2>1. Letting Your Dental Benefits Expire Unused</h2>
+        
+        <p>Most dental insurance plans operate on a "use it or lose it" basis, meaning your annual maximum benefit resets every year. If you have a $1,500 annual maximum and only use $300, that remaining $1,200 doesn't roll over—it simply disappears. Even worse, you've been paying premiums all year for coverage you didn't use.</p>
+        
+        <p>The good news is that taking advantage of your dental benefits is easier than ever. Many people don't realize that booking a routine cleaning and exam not only protects your oral health but also ensures you're getting the full value of what you're paying for. Some dental booking platforms even offer incentives to help you maximize your benefits.</p>
+        
+        <div class="cta-box">
+            <p><strong>For example, Opencare is currently offering a $150 reward when you book and complete a new patient exam and cleaning with a top-rated dentist in your area.</strong></p>
+            
+            <p>This means you're not only using the benefits you're already paying for, but you're also getting paid to do it. With thousands of verified reviews and partnerships with major insurance providers including Delta Dental, Cigna, MetLife, and more, Opencare makes it simple to find a quality dentist and book online in minutes.</p>
+            
+            <div class="trust-badge">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span>4.8 out of 12k reviews</span>
+            </div>
+            
+            <div class="cta-center">
+                <a href="https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e" class="cta-button" id="cta1">Find a Dentist Near You</a>
+            </div>
+            
+            <div class="insurance-logos">
+                <p>Accepted by dentists partnered with:</p>
+                <img src="insurance-logos.png" alt="Insurance partners: Cigna, Delta Dental, Aetna">
+            </div>
+        </div>
+        
+        <h2>2. Not Understanding Your Preventive Care Coverage</h2>
+        
+        <p>Most health insurance plans cover preventive care at 100%, meaning you pay nothing out of pocket for annual physicals, certain screenings, and vaccinations. Yet studies show that nearly 40% of Americans skip their annual checkup, often because they assume it will cost them money.</p>
+        
+        <p>By not taking advantage of free preventive care, you're missing opportunities to catch health issues early when they're easier and cheaper to treat. The same applies to dental insurance—most plans cover two cleanings per year at no cost to you. If you're not scheduling these appointments, you're essentially paying for a service you're not using.</p>
+        
+        <p>Preventive care isn't just about your health; it's about getting your money's worth from your insurance premiums. Plus, right now you can earn a $150 gift card just for completing your preventive dental visit through Opencare.</p>
+        
+        <div class="cta-center">
+            <a href="https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e" class="cta-button" id="cta2">Book Your Cleaning Today</a>
+        </div>
+        
+        <h2>3. Staying with Out-of-Network Providers</h2>
+        
+        <p>Using out-of-network doctors and dentists can cost you significantly more in copays and deductibles. Many people stick with a provider they've used for years without realizing they're paying extra because that provider is no longer in their insurance network.</p>
+        
+        <p>Before your next appointment, take a few minutes to verify that your provider is still in-network. If they're not, consider switching to an in-network provider. The savings can be substantial, especially if you need multiple visits or procedures throughout the year.</p>
+        
+        <p>Platforms like Opencare make it easy to find top-rated, in-network dentists in your area, ensuring you get quality care without paying out-of-network premiums.</p>
+        
+        <h2>4. Ignoring Your FSA or HSA Funds</h2>
+        
+        <img src="insurance-paperwork.jpg" alt="FSA and HSA paperwork" class="hero-image">
+        
+        <p>Flexible Spending Accounts (FSAs) often have a "use it or lose it" rule at the end of the year. If you have money sitting in your FSA, now is the time to use it on eligible expenses like dental work, glasses, contact lenses, or even sunscreen.</p>
+        
+        <p>Health Savings Accounts (HSAs) do roll over, but many people forget they have them or don't realize how many expenses qualify. Dental cleanings, exams, and treatments are all FSA and HSA eligible, making it an excellent way to use those funds before they expire.</p>
+        
+        <p>Check your FSA or HSA balance today and schedule that dental appointment you've been putting off. You're literally using your own pre-tax money that will disappear if you don't act.</p>
+    </div>
+    
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+        <h2>People that did this said...</h2>
+        
+        <div class="testimonial-slider">
+            <div class="testimonial-track" id="testimonialTrack">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Opencare helped me find my current Dental clinic, Total Health Dental, and it's the best dental clinic I've ever been to! I was dreading the process of having to find a dentist that could work for me in terms of insurance, distance, and scheduling but Opencare made it so easy! I will definitely be using it again!"</p>
+                    <div class="testimonial-author">vi</div>
+                    <div class="testimonial-location">US • November 26, 2025</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"My experience has been really smooth so far! The dentist I worked with was amazing! Very happy with my experience so far and grateful for the $150 Amazon gift card. I haven't received it yet, but the booking process was seamless and the dental care was excellent."</p>
+                    <div class="testimonial-author">Mackenzie</div>
+                    <div class="testimonial-location">US • November 19, 2025</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"About Toluca Advanced Dentistry, they gave me my first dental visit free as an early Christmas present. It was a crown that had needed help. Dr. Toluca took time to listen to me and formed a plan of care. The staff was incredibly welcoming and professional."</p>
+                    <div class="testimonial-author">Maren Haugen</div>
+                    <div class="testimonial-location">US • November 2025</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="slider-btn" id="prevBtn" onclick="prevSlide()">‹</button>
+            <button class="slider-btn" id="nextBtn" onclick="nextSlide()">›</button>
+        </div>
+        
+        <div class="testimonial-trust">
+            <span class="stars">⭐⭐⭐⭐⭐</span> 4.8 out of 12k reviews on Trustpilot
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>5. Not Appealing Denied Claims</h2>
+        
+        <p>Insurance companies deny claims all the time, but many of these denials can be successfully appealed. Most people simply accept the denial and pay out of pocket, not realizing they have the right to challenge the decision.</p>
+        
+        <p>If your insurance denies a claim, read the explanation of benefits carefully to understand why. Often, it's a simple coding error or missing documentation that can be corrected. Contact your provider's billing department and your insurance company to start the appeals process.</p>
+        
+        <p>Studies show that a significant percentage of appealed claims are eventually approved. Don't leave money on the table just because the first answer was no.</p>
+        
+        <h2>6. Skipping Generic Medications</h2>
+        
+        <p>Brand-name medications can cost significantly more than their generic equivalents, which contain the same active ingredients and are held to the same FDA standards. Always ask your doctor if a generic option is available for any prescription.</p>
+        
+        <p>In many cases, your insurance will cover generics at a much lower copay or even for free, while brand-name drugs might require you to pay a significant portion out of pocket. The savings can add up to hundreds or even thousands of dollars per year, especially for medications you take regularly.</p>
+        
+        <h2>7. Paying for Services Already Covered</h2>
+        
+        <img src="dental-checkup.jpg" alt="Dental checkup" class="hero-image">
+        
+        <p>Some people pay out of pocket for services like flu shots, wellness visits, or routine screenings without realizing their insurance covers them for free. Always check your benefits summary before paying for any preventive service.</p>
+        
+        <p>Under the Affordable Care Act, most insurance plans are required to cover a wide range of preventive services at no cost to you. This includes annual wellness visits, certain cancer screenings, immunizations, and preventive dental care.</p>
+        
+        <p>Before you pay for any medical or dental service, call your insurance company or check your online portal to confirm whether it's covered. You might be surprised at how many services are included in your plan at no additional cost.</p>
+        
+        <h2>8. Not Shopping Around for Better Rates</h2>
+        
+        <img src="unused-benefits.jpg" alt="Comparing insurance rates" class="hero-image">
+        
+        <p>Insurance premiums and out-of-pocket costs can vary widely between providers and plans. If you haven't reviewed your coverage options in a few years, you might be paying more than necessary.</p>
+        
+        <p>During open enrollment, take the time to compare different plans and providers. Look at the total cost of coverage, including premiums, deductibles, and copays, not just the monthly premium. Sometimes a plan with a slightly higher premium can save you money overall if it has lower out-of-pocket costs for the services you use most.</p>
+        
+        <p>The same applies to finding healthcare providers. Shopping around for dentists, doctors, and specialists can help you find quality care at better prices, especially if you're willing to switch to an in-network provider.</p>
+        
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(0)">
+                    <span>Am I Eligible for an Opencare Reward?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>To qualify for an Opencare gift card reward, you must complete a new patient exam and at least one other dental service (such as a cleaning), book your appointment through the Opencare website, not use government-funded insurance, be at least 18 years old, be a new patient at the dental practice, not have received an Opencare reward in the past 2 years, and submit a valid dental receipt.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(1)">
+                    <span>How Do I Check My Offer Status?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Once you've submitted your reward claim, log in to your Opencare account, go to the Offer Status tab in your dashboard, and review the current stage (Pending, In Progress, Sent, or Denied). We process all offers within 5-10 business days.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(2)">
+                    <span>How Do I Redeem My Gift Card?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>After your reward claim is validated, you'll receive an email with a redemption link. Go to myprepaidcenter.com/redeem, enter your 12-character Security Code, complete the registration form, and view your card number, expiration date, and CVV. You must redeem within 6 months of receiving the link.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(3)">
+                    <span>How Do I Book an Appointment?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Visit Opencare.com or click any "Book Now" button on this page, enter your location and insurance information, browse top-rated dentists in your area, select available appointment times, and complete your booking online. Appointments must be booked through Opencare to qualify for rewards.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Final CTA -->
+        <div class="final-cta">
+            <h2>Take Action Today</h2>
+            <p>Don't let another year go by without using the benefits you're already paying for. Book your dental cleaning now and earn your $150 reward.</p>
+            <a href="https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e" class="cta-button" id="finalCta">Ready to Stop Wasting Your Benefits?</a>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="disclosure">
+        <div class="footer-content">
+            <div class="footer-disclosure">
+                <strong>Advertiser Disclosure:</strong> This article is produced and sponsored by Opencare. DentalGuide may receive compensation when you click on links to products or services featured in this article. This compensation may impact how and where products appear, but does not influence our editorial content or recommendations. We strive to provide accurate and helpful information to help you make informed decisions about your dental health and benefits.
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://www.opencare.com/terms/" target="_blank">Terms</a>
+                <a href="https://www.opencare.com/privacy/" target="_blank">Privacy</a>
+                <a href="https://www.opencare.com/terms/offers/" target="_blank">Rewards Support</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Exit Intent Popup -->
+    <div class="exit-popup" id="exitPopup">
+        <div class="exit-popup-content">
+            <button class="exit-popup-close" onclick="closeExitPopup()">✕</button>
+            <h3>Wait! Don't Miss Out!</h3>
+            <p>Before you go, remember: your dental benefits expire on December 31st. Book your cleaning now and claim your $150 reward!</p>
+            <a href="https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e" class="cta-button" id="exitCta">Claim My $150 Reward</a>
+        </div>
+    </div>
+    
+    <script>
+        // Calculate days until Dec 31
+        function calculateDaysLeft() {
+            const today = new Date();
+            const endOfYear = new Date(today.getFullYear(), 11, 31);
+            const diffTime = endOfYear - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            return diffDays;
+        }
+        
+        document.getElementById('daysLeft').textContent = calculateDaysLeft();
+        
+        // Dismiss banner
+        function dismissBanner() {
+            document.getElementById('urgencyBanner').style.display = 'none';
+        }
+        
+        // Testimonial Slider
+        let currentSlide = 0;
+        const track = document.getElementById('testimonialTrack');
+        const cards = track.querySelectorAll('.testimonial-card');
+        const totalSlides = cards.length;
+        
+        function getCardsPerView() {
+            if (window.innerWidth >= 1024) return 3;
+            if (window.innerWidth >= 768) return 2;
+            return 1;
+        }
+        
+        function updateSlider() {
+            const cardsPerView = getCardsPerView();
+            const maxSlide = totalSlides - cardsPerView;
+            if (currentSlide > maxSlide) currentSlide = maxSlide;
+            if (currentSlide < 0) currentSlide = 0;
+            
+            const cardWidth = 100 / cardsPerView;
+            track.style.transform = `translateX(-${currentSlide * cardWidth}%)`;
+            
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide >= maxSlide;
+        }
+        
+        function nextSlide() {
+            const cardsPerView = getCardsPerView();
+            const maxSlide = totalSlides - cardsPerView;
+            if (currentSlide < maxSlide) {
+                currentSlide++;
+                updateSlider();
+            }
+        }
+        
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlider();
+            }
+        }
+        
+        window.addEventListener('resize', updateSlider);
+        updateSlider();
+        
+        // FAQ toggle
+        function toggleFaq(index) {
+            const faqItems = document.querySelectorAll('.faq-item');
+            const answer = faqItems[index].querySelector('.faq-answer');
+            const toggle = faqItems[index].querySelector('.faq-toggle');
+            
+            answer.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+        
+        // Exit intent
+        let exitIntentShown = false;
+        let mouseY = 0;
+        let timeOnPage = 0;
+        
+        setInterval(() => timeOnPage++, 1000);
+        
+        document.addEventListener('mousemove', (e) => {
+            mouseY = e.clientY;
+        });
+        
+        document.addEventListener('mouseout', (e) => {
+            if (!exitIntentShown && timeOnPage > 3 && mouseY < 30) {
+                document.getElementById('exitPopup').classList.add('active');
+                exitIntentShown = true;
+            }
+        });
+        
+        function closeExitPopup() {
+            document.getElementById('exitPopup').classList.remove('active');
+        }
+        
+        // URL parameter tracking
+        function getTrackingUrl() {
+            const params = new URLSearchParams(window.location.search);
+            const baseUrl = 'https://voluum.opencare.com/dbeff224-8358-4989-bb16-d7adc923eb0e';
+            
+            const trackingParams = new URLSearchParams();
+            
+            if (params.get('utm_campaign')) trackingParams.set('utm_campaign', params.get('utm_campaign'));
+            if (params.get('utm_adgroup')) trackingParams.set('utm_adgroup', params.get('utm_adgroup'));
+            if (params.get('utm_source')) trackingParams.set('utm_source', params.get('utm_source'));
+            if (params.get('utm_medium')) trackingParams.set('utm_medium', params.get('utm_medium'));
+            if (params.get('utm_term')) trackingParams.set('utm_term', params.get('utm_term'));
+            if (params.get('utm_content')) trackingParams.set('utm_content', params.get('utm_content'));
+            if (params.get('matchtype')) trackingParams.set('matchtype', params.get('matchtype'));
+            if (params.get('account_id')) trackingParams.set('account_id', params.get('account_id'));
+            if (params.get('campaign_id')) trackingParams.set('campaign_id', params.get('campaign_id'));
+            if (params.get('ad_group_id')) trackingParams.set('ad_group_id', params.get('ad_group_id'));
+            if (params.get('device_type')) trackingParams.set('device_type', params.get('device_type'));
+            
+            const queryString = trackingParams.toString();
+            return queryString ? `${baseUrl}?${queryString}` : baseUrl;
+        }
+        
+        // Update all CTA links with tracking
+        const trackingUrl = getTrackingUrl();
+        document.querySelectorAll('a[href*="voluum.opencare.com"]').forEach(link => {
+            link.href = trackingUrl;
+        });
+    </script>
+</body>
+</html>
